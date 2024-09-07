@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fortofolio Satria p p</title>
+  </head>
+  <body>
+    <!-- nav start -->
+    <div class="container-nav">
+      <nav>
+        <span>Satria Priyatama Prasetya</span>
+        <ul class="hidden-ul">
+          <li>
+            <a href="#home">Beranda</a>
+          </li>
+          <li>
+            <a href="#about">Tentang Saya</a>
+          </li>
+          <li>
+            <a href="#skills">Kemampuan</a>
+          </li>
+          <li>
+            <a href="#project">Projek</a>
+          </li>
+          <li>
+            <a href="#contact">Kontak</a>
+          </li>
+        </ul>
+        <div class="humberger" id="humberger" onclick="showUl()">
+          <i class="fa-solid fa-grip-lines" id="icon"></i>
+        </div>
+      </nav>
+    </div>
+    <!-- nav end -->
+    <!-- hero start -->
+    <div class="container-hero">
+      <section class="hero" id="home">
+        <h1>
+          Hai, Nama saya  <br />
+          <b> Satria Priyatama Prasetya</b>, Saya seorang Frontend Web Developer
+        </h1>
+        <p>
+          Seorang Frontend Web Developer dengan dasar <br />
+          skil HTML CSS and Javascript.
+        </p>
+        <a href="#about">
+          <button>Tentang Saya</button>
+        </a>
+        <a href="#contact">
+          <button>Kontak</button>
+        </a>
+        <br />
+        <!-- your image -->
+        <img src="./assets/aku.jpg" alt="Person" />
+      </section>
+    </div>
+    <!-- hero end -->
+    <!-- about start -->
+    <div class="container-about">
+      <section class="about" id="about">
+        <h1>Tentang Saya</h1>
+        <!-- your image -->
+        <img src="./assets/aku.jpg" alt="Person" />
+        <div class="text-about">
+          <p>
+            Hai, nama saya Satria Priyatama Prasetya, saya adalah Pengembang Web Frontend yang berkomitmen untuk
+menciptakan pengalaman pengguna yang luar biasa melalui desain web yang menarik dan interaktif.
+Dengan kombinasi keterampilan dalam skil HTML, CSS, dan Java Script, dan Saya berupaya mewujudkan ide menjadi kenyataan di dunia digital.
+          </p>
+          <a href="#skills">
+            <button>Skil Saya</button>
+          </a>
+        </div>
+      </section>
+    </div>
+    <!-- about end -->
+    <!-- skills start -->
+    <div class="container-skills">
+      <section class="skills" id="skills">
+        <h1>Kemampuan</h1>
+        <div class="all-card-skills">
+          <div class="card-skills"><h2>HTML5</h2></div>
+          <div class="card-skills"><h2>CSS3</h2></div>
+          <div class="card-skills"><h2>TAILWIND</h2></div>
+          <div class="card-skills"><h2>Javascript</h2></div>
+        </div>
+        <a href="#project">
+          <button>Lihat Projek Saya</button>
+        </a>
+      </section>
+    </div>
+    <!-- skills end -->
+    <!-- project start -->
+    <div class="container-project">
+      <section class="project" id="project">
+        <h1>Projek Saya</h1>
+        <div class="all-card-project">
+          <div class="card-project">
+            <img src="./assets/web saya.png" alt="project" />
+            <h2>Toko Pakaian Statis</h2>
+            <p>Website landing page toko pakaian, dibuat dengan HTML, CSS, TAILWIND.</p>
+            <a href="#">
+              <button>Demo</button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- project end -->
+    <!-- contact start -->
+    <div class="container-contact">
+      <section class="contact" id="contact">
+        <h1>Kontak Saya</h1>
+        <img src="./assets/contact-1.png" alt="contact" />
+        <div class="sosial-media">
+          <h2>sosial media</h2>
+          <ul>
+            <li><img src="assets/instagram-brands-solid-wh.svg" alt=""> <a href="https://www.instagram.com/satt_tyaa09/">Instagram</a></li>
+            <!-- <li><i class="bi bi-instagram"></i><a href="https://www.instagram.com/satt_tyaa09/">Instagram</a></li> -->
+            <li><img src="assets/whatsapp-brands-solid.svg" alt=""><a href="https://api.whatsapp.com/send/?phone=085732226739&text&type=phone_number&app_absent=0">whatsapp</a></li>
+          </ul>
+        </div>
+        <!-- <form action="">
+          <h2>Get in touch!</h2>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            type="email"
+            name="emial"
+            id="email"
+            placeholder="Your Email"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Message"
+          ></textarea>
+          <a href="#">
+            <button>Send Message</button>
+          </a>
+        </form> -->
+      </section>
+    </div>
+    <!-- contact end -->
+    <!-- footer start -->
+    <div class="container-footer">
+      <footer>
+        <p><i class="fa-regular fa-copyright"></i> Sattya</p>
+      </footer>
+    </div>
+    <!-- footer end -->
+
+    <!-- js -->
+    <script src="./script.js"></script>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/e91d75df7f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
